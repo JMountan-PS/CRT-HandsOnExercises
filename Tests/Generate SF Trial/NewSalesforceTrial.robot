@@ -7,7 +7,7 @@ Library                     String
 Suite Setup                 Open Browser                about:blank           chrome
 Suite Teardown              Close All Browsers
 *** Variables ***
-${email}                    youremailaddress
+${email}                    c-jmountan@copado.com
 
 
 *** Test Cases ***
