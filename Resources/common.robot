@@ -13,7 +13,7 @@ ${home_url}               ${login_url}/lightning/page/home
 *** Keywords ***
 Setup Browser
     Set Library Search Order                          QWeb                   QForce
-    Open Browser          about:blank                 ${BROWSER}
+    Open Browser          about:blank                 chrome
     SetConfig             LineBreak                   ${EMPTY}               #\ue000
     SetConfig             DefaultTimeout              20s                    #sometimes salesforce is slow
 
