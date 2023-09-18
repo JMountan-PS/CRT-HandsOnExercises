@@ -20,7 +20,7 @@ The purpose of this exercise is to create your own Salesforce Trial Org. with th
 
 1. Create a new empty suite.
 
-2. Copy the following sample test file. [create-sf-trail](create-sf-trail.robot)
+2. Copy the following sample test file. [create-sf-trial](create-sf-trial.robot)
 
 3. At line 13, enter your email address.
 
