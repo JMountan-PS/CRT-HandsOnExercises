@@ -1,6 +1,6 @@
-# Exercise 4 - Salesforce Trial Org. Setup!
+# Exercise 3 - Salesforce Trial Org. Setup!
 
-Welcome to **Exercise 4**. Let's create a **Salesforce Trial Org.**! Which will be our system under tests, used for our exercises throughout this training.
+Welcome to **Exercise 3**. Let's create a **Salesforce Trial Org.**! Which will be our system under tests, used for our exercises throughout this training.
 
 # Purpose
 
@@ -24,7 +24,7 @@ The purpose of this exercise is to create your own Salesforce Trial Org. with th
 
 3. At line 13, enter your email address.
 
-4. Click **Live Test** button displayed just above the test case name **Exercise 4 - Create Salesforce Trial Org**
+4. Click **Live Test** button displayed just above the test case name **Exercise 3 - Create Salesforce Trial Org**
 
 > **Note:** If you **already have a salesforce account registered to your email**, try and add +1 to your email address like youremailaddress+1@domain.com** and if you **don't receive emails from Salesforce**, your mail server may block emails used with +1**
 
