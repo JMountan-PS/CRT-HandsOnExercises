@@ -4,7 +4,7 @@ Variables    YamlVariables.yaml
 Variables    DynamicVariables.py
 
 *** Test Cases ***
-Exercise 7 - Variable Files Access Python Variables
+Exercise 8 - Variable Files Access Python Variables
     Log   ${TestEnv.ip}
     Log    ${TestEnv.roles}
     Log Many   @{TestEnv.roles}
@@ -15,20 +15,20 @@ Exercise 7 - Variable Files Access Python Variables
         Log    ${item}
     END
 
-Exercise 7 - Variable Files Access Yaml Variables
+Exercise 8 - Variable Files Access Yaml Variables
     Log        ${base_url}
     Log Many   @{yaml_list}
     Log        ${yaml_dict}
     Log        ${yaml_dict}[key_1]
 
-Exercise 7 - Variable Files Access Dynamic Variables
+Exercise 8 - Variable Files Access Dynamic Variables
     Log   ${RANDOM_INT}
     Log   ${CURRENT_TIME}
     Log   ${AFTERNOON}
     Log   ${AREA1}
     Log   ${AREA2}
 
-Exercise 7 - Variable Files Use variable file with argument value dev
+Exercise 8 - Variable Files Use variable file with argument value dev
     Import Variables	${CURDIR}/EnvVariables.py    dev
     Log            ${scalar}
     Log            ${list}
@@ -37,7 +37,7 @@ Exercise 7 - Variable Files Use variable file with argument value dev
         Log            ${extra}
     END
 
-Exercise 7 - Variable Files Use variable file with argument value uat
+Exercise 8 - Variable Files Use variable file with argument value uat
     Import Variables	${CURDIR}/EnvVariables.py    uat
     Log            ${scalar}
     Log            ${list}
