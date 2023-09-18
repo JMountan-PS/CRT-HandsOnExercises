@@ -1,6 +1,6 @@
-# Exercise 5 - Allowlist CRT IP ranges in your Salesforce Trial Org.!
+# Exercise 4 - Allowlist CRT IP ranges in your Salesforce Trial Org.!
 
-Welcome to **Exercise 5**. We are going to allowlist CRT IP addresses in your Salesforce Trial Org.
+Welcome to **Exercise 4**. We are going to allowlist CRT IP addresses in your Salesforce Trial Org.
 
 # Purpose
 
@@ -8,7 +8,7 @@ Allowlisted IP addresses ranges can access your Salesforce Trial Org. without re
 
 # Prerequisite(s)
 
-- Access to a Salesforce Trial Org. is required. (exercise 4)
+- Access to a Salesforce Trial Org. is required. (exercise 3)
 
 # Learning Objectives
 
